@@ -1,0 +1,45 @@
+body{
+    background-color: #FF5E5E;
+}
+
+article {
+    width:700px;
+    margin: auto;
+    height: 750px;
+}
+
+
+#Twitter path ,
+#LINE path ,
+#note path ,
+#omokoro path ,
+#insta path {
+	-webkit-transition: all ease-in 0.2s;
+    transition: all ease-in 0.2s;
+}
+
+#Twitter :hover path ,
+#LINE :hover path ,
+#note :hover path ,
+#omokoro :hover path ,
+#insta :hover path{
+    fill: #6D00FF;
+    stroke: #6D00FF;
+    stroke-width: 2px;
+}
+
+#asi_1_ path ,{
+    -webkit-transition: all ease-in 0.2s;
+    transition: all ease-in 0.2s;
+    transform-origin: 90% 0%; 
+    transform: translate(-2px,-8px);
+}
+
+#asi_1_ :hover path{
+        -webkit-transition: all ease-in 0.2s;
+        transition: all ease-in 0.2s;
+        transform-origin: 90% 0%; 
+        transform: translate(-2px,-8px);
+}
+
+
